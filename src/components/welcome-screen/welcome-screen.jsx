@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const WelcomeScreen = (props) => {
-  const {time, errors} = props;
+const WelcomeScreen = ({time, errors}) => {
 
   return <section className="welcome">
     <div className="welcome__logo">
