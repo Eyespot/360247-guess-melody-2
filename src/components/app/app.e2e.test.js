@@ -10,7 +10,7 @@ it(`ButtonStartOnClick calls correctly`, () => {
   const app = mount(<App
     gameTime={0}
     allowedErrors={0}
-    onClick={clickHandler}
+    buttonStartOnClick={clickHandler}
   />);
 
   const startButton = app.find(`button`);

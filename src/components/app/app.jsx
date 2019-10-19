@@ -14,7 +14,7 @@ const App = ({gameTime, allowedErrors, buttonStartOnClick}) => {
 App.defaultProps = {
   gameTime: 5,
   allowedErrors: 3,
-  buttonStartOnClick() {}
+  buttonStartOnClick: () => {}
 };
 
 App.propTypes = {

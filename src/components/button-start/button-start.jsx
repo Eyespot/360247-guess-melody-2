@@ -9,7 +9,7 @@ const ButtonStart = ({buttonStartOnClick}) => {
 };
 
 ButtonStart.propTypes = {
-  buttonStartOnClick: PropTypes.func
+  buttonStartOnClick: PropTypes.func.isRequired
 };
 
 export default ButtonStart;
