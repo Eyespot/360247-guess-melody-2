@@ -10,6 +10,7 @@ module.exports = {
     contentBase: path.join(__dirname, `public`),
     compress: false,
     // open: true,
+    // overlay: true,
     port: 1338,
   },
   module: {
