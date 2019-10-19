@@ -3,6 +3,7 @@
 exports[`ButtonStart component renders correctly after relaunch 1`] = `
 <button
   className="welcome__button"
+  onClick={[Function]}
 >
   <span
     className="visually-hidden"

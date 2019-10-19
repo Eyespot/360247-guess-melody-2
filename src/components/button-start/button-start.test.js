@@ -5,7 +5,7 @@ import ButtonStart from "./button-start.jsx";
 it(`ButtonStart component renders correctly after relaunch`, () => {
   const tree = renderer
     .create(<ButtonStart
-      onClick={()=>{}}
+      buttonStartOnClick={()=>{}}
     />)
     .toJSON();
   expect(tree).toMatchSnapshot();

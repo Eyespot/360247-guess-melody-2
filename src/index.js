@@ -11,9 +11,7 @@ const init = () => {
 
   ReactDOM.render(
       <App
-        gameTime={settings.gameTime}
-        allowedErrors={settings.allowedErrors}
-        buttonStartOnClick={settings.buttonStartOnClick}
+        {...settings}
       />,
       document.querySelector(`#root`)
   );

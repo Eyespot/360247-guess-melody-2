@@ -7,6 +7,7 @@ it(`App component renders correctly after relaunch`, () => {
     .create(<App
       gameTime={0}
       allowedErrors={0}
+      buttonStartOnClick={()=>{}}
     />)
     .toJSON();
   expect(tree).toMatchSnapshot();

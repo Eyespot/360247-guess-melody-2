@@ -7,6 +7,7 @@ it(`WelcomeScreen component renders correctly after relaunch`, () => {
     .create(<WelcomeScreen
       time={0}
       errors={0}
+      buttonStartOnClick={()=>{}}
     />)
     .toJSON();
   expect(tree).toMatchSnapshot();
